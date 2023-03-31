@@ -1,0 +1,274 @@
+html, body{
+    margin: 0;
+    user-select: none;
+    font-family: calibri;
+}
+
+.title{
+  position: absolute;
+  background-image: url("../images/title.png");
+  background-size: cover;
+  width: 60%;
+  height: 30%;
+  left: 20%;
+}
+
+
+
+h1 {
+    
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.button {
+  background-color: indianred;
+  font-size: 1.5rem;
+  border-radius: 3rem;
+  padding: 3rem;
+}
+
+.button:hover{
+  background-color: green;
+  cursor: pointer;
+}
+
+.hidden{
+  display: none;
+}
+
+#startbutton {
+    
+    
+    background-color: red;
+    font-size: 2rem;
+    border-radius: 3rem;
+    margin: -5%;
+    z-index: 0;
+    height: 30%;
+
+}
+
+#startbutton:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  #gator1{
+   width: 100%;
+   height: auto;
+   z-index: 1;
+    
+  }
+
+  #indexcontainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 50%;
+  }
+
+  .flexcontainer{
+
+    
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+
+  }
+
+  .gamecontainer {
+    width: 80vw;
+    height: 80vh;
+    background-color: lightgray;
+    border: 3px solid;
+  }
+
+  .gameicon {
+    width: 20%;
+    height: 30vh;
+    margin-left: 2rem;
+    border-radius: 2.5rem;
+    border: solid 3px;
+    font-size: larger;
+  }
+
+  .gameicon:hover {
+    cursor: pointer;
+  }
+
+  #hubgames{
+    position: absolute;
+    top: 35%;
+    height: 30vh;
+  
+  }
+
+  #logincontainer{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    width: 20%;
+    height: 40%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 2rem;
+    background-color: beige;
+  }
+
+  #registercontainer {
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    width: 20%;
+    height: 50%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 2rem;
+    background-color: beige;
+  }
+
+  #or{
+    width: 3%;
+    height: 5%;
+    border: solid;
+    border-radius: 2rem;
+    background-color: #508146;
+  }
+
+  .logininput {
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 70%;
+    height: 20%;
+    left: 10%;
+    border-radius: 1rem;
+    margin-bottom: 5%;
+    font-size: large;
+    background-color: lightgray;
+    border: none;
+  }
+
+  .registerinput {
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 70%;
+    height: 15%;
+    left: 10%;
+    border-radius: 1rem;
+    margin-bottom: 5%;
+    font-size: large;
+    background-color: lightgray;
+    border: none;
+  }
+
+  .loginbutton {
+    
+    position: relative;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    font-size: large;
+    background-color: gray;
+    border-radius: 1rem;
+  }
+
+  .registerbutton {
+    position: relative;
+    width: 50%;
+    height: 15%;
+    left: 25%;
+    font-size: large;
+    border-radius: 1rem;
+    background-color: gray;
+  }
+
+  #wackamole {
+    background: url(../images/wackamole.jpg);
+    background-size: cover;
+
+  }
+
+  #addigator {
+    background: url(../images/addigator.png);
+    background-size: cover;
+
+  }
+
+  #subigator {
+    background: url(../images/subigator.jpg);
+    background-size: cover;
+  }
+
+  #leaderboard {
+    top: 65%;
+    width: 60%;
+    height: 50%;
+    background-color: black;
+  }
+
+  #boardtitle {
+    font-size: 3rem;
+    height: 10%;
+  }
+
+  #boardheader {
+    font-size: 1.5rem;
+    height: 8%;
+  }
+
+  #boardgames {
+    height: 5%;
+  }
+  
+
+
+  td, th {
+    background-color: beige;
+  }
+
+  td {
+    text-align: center;
+    
+    }
+
+ .boardbutton {
+  position: absolute;
+  width: 15%;
+  height: 8%;
+  background-color: beige;
+  text-align: center;
+  font-size: larger;
+  border: solid;
+  border-width: 2px;
+ }
+
+ .active {
+  background-color: khaki;
+ }
+  

@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:16:59:52 +0100] "GET /demo HTTP/1.1" 302 - http-bio-9090-exec-2 0
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:16:59:52 +0100] "GET /demo/ HTTP/1.1" 200 647 http-bio-9090-exec-3 45
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:16:59:53 +0100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-4 0
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:16:59:54 +0100] "GET /demo/login.jsp HTTP/1.1" 200 4039 http-bio-9090-exec-5 8
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:06 +0100] "POST /demo/validate.jsp HTTP/1.1" 200 103 http-bio-9090-exec-6 82
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:25 +0100] "GET /demo/login.jsp HTTP/1.1" 200 4039 http-bio-9090-exec-7 2
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:25 +0100] "GET /demo/styling/css.css HTTP/1.1" 200 4309 http-bio-9090-exec-8 3
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:25 +0100] "GET /demo/images/title.png HTTP/1.1" 200 55097 http-bio-9090-exec-1 3
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:25 +0100] "GET /demo/images/swamp2.jpg HTTP/1.1" 200 1561928 http-bio-9090-exec-9 8
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:25 +0100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-9 0
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:29 +0100] "POST /demo/validate.jsp HTTP/1.1" 200 227 http-bio-9090-exec-9 6
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:30 +0100] "GET /demo/login.jsp HTTP/1.1" 200 4039 http-bio-9090-exec-9 1
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:40 +0100] "POST /demo/validate.jsp HTTP/1.1" 200 103 http-bio-9090-exec-9 3
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:45 +0100] "POST /demo/validate.jsp HTTP/1.1" 200 103 http-bio-9090-exec-9 3
+0:0:0:0:0:0:0:1 - - [17/Mar/2023:17:00:46 +0100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-9 0
